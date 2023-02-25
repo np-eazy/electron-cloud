@@ -5,3 +5,6 @@ by Joey Zhu (github username @np-eazy)
 
 Run: in the electron-cloud folder, run '$ python3 main.py' to generate a TKinter window that will start a new simulation.
 
+See atom-2.mp4 for an example of what a render might look like; I forgot the magnitudes/phases but that one is created with (1, 0, 0), (2, 0, 0), (3, 0, 0), and (5, 1, -1) if I remember correctly. I changed the initialization code in the BohmianCluster class to get that distribution to start from a small point rather than to sample everything.
+
+The projection code also pre-rotates along the y axis but this can definitely be customized.
